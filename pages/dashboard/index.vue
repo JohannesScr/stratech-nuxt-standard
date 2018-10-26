@@ -7,16 +7,6 @@
         @click="testFn(3)">
         Dashboard gfgf
       </h1>
-      <label class="label">Email (1s delay)</label>
-      <input
-        v-validate="'required|email'"
-        :class="{'input': true, 'is-danger': errors.has('email') }"
-        name="email"
-        data-vv-delay="5000"
-        type="text"
-        placeholder="Email">
-
-      <span v-show="errors.has('email')">{{ errors.first('email') }}</span>
     </div>
   </section>
 </template>
@@ -32,8 +22,6 @@ export default {
   methods: {
     testFn(a) {
       const b = 5
-      let c = 10
-
       return console.log(a + b)
     }
   }
