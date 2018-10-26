@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <logo/>
-      <h1 class="title">
+      <h1 class="title" @click="testFn(3)">
         Dashboard
       </h1>
     </div>
@@ -16,6 +16,13 @@ export default {
   layout: 'dashboard',
   components: {
     Logo
+  },
+  methods: {
+    testFn(a) {
+      const b = 5;
+      let c = 10;
+      return console.log(a + b);
+    }
   }
 }
 </script>
