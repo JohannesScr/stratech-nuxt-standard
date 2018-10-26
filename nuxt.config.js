@@ -66,6 +66,15 @@ module.exports = {
     vendor: ['~/plugins/custom.js', '~/plugins/third_paty.js'],
     extend(config, ctx) {
       config.resolve.alias['vue'] = 'vue/dist/vue.common'
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: "pre",
+          test: /\.(js|vue)$/,
+          loader: "eslint-loader",
+          exclude: /(node_modules)/
+        })
+      }
     }
   }
 }

@@ -6,11 +6,11 @@
 </template>
 
 <script>
-  import TopNav from '@/components/TopNav'
+import TopNav from '@/components/TopNav'
 
-  export default {
-    components: {
-      TopNav
-    }
+export default {
+  components: {
+    TopNav
   }
+}
 </script>
