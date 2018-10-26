@@ -32,6 +32,7 @@ $ yarn run generate
 `npm install --save-dev sass-loader` [SASS Loader] (https://github.com/webpack-contrib/sass-loader)
 `npm install --save-dev uikit` [UIKit] (https://github.com/uikit/uikit)
 `npm install --save-dev @nuxtjs/pwa` [Nuxt PWA Module] (https://pwa.nuxtjs.org/modules/workbox)
+`npm install --save-dev vue-js-modal` [Vue Modal] (https://vuejs.org/v2/examples/modal.html)
 
 ## Nuxt config
 

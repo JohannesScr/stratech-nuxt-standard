@@ -1,3 +1,5 @@
+import Vue from 'vue'
+
 // agGrid
 import '~/node_modules/ag-grid/dist/styles/ag-grid.css'
 import '~/node_modules/ag-grid/dist/styles/ag-theme-material.css'
@@ -13,7 +15,10 @@ import Icons from 'uikit/dist/js/uikit-icons'
 UIkit.use(Icons)
 
 // eCharts
-import Vue from 'vue'
 import IEcharts from 'vue-echarts-v3/src/full.js'
 // register component to use
 Vue.component('chart', IEcharts)
+
+// Vue Modal
+import VModal from 'vue-js-modal'
+Vue.use(VModal)
