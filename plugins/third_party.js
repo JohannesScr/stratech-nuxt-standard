@@ -22,3 +22,9 @@ Vue.component('chart', IEcharts)
 // Vue Modal
 import VModal from 'vue-js-modal'
 Vue.use(VModal)
+
+// Vee Validate
+import VeeValidate from 'vee-validate'
+Vue.use(VeeValidate, {
+  inject: true
+})
