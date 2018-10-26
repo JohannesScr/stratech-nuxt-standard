@@ -10,7 +10,6 @@ module.exports = {
   extends: [
     'plugin:vue/recommended',
     'plugin:prettier/recommended',
-    // 'plugin:vue/essential'
   ],
   // required to lint *.vue files
   plugins: [
