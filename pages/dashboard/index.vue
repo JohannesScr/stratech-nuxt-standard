@@ -1,10 +1,11 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <logo />
       <h1
         class="title"
-        @click="testFn(3)">
+        @click="testFn(3)"
+      >
         Dashboard gfgf
       </h1>
     </div>

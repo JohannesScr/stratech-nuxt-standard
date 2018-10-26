@@ -9,7 +9,8 @@ module.exports = {
   },
   extends: [
     'plugin:vue/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    // 'plugin:vue/essential'
   ],
   // required to lint *.vue files
   plugins: [
@@ -20,6 +21,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-unused-vars': 2,
+    'no-unused-vars': 2
   }
 }
