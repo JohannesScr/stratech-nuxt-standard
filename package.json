@@ -14,13 +14,14 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
-    "ag-grid-community": "^19.0.0",
     "cross-env": "^5.2.0",
     "express": "^4.16.3",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
     "ag-grid": "^18.1.2",
+    "ag-grid-community": "^19.0.0",
     "ag-grid-enterprise": "^19.0.0",
     "ag-grid-vue": "^19.0.0",
     "babel-eslint": "^8.2.1",
