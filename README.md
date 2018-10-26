@@ -36,9 +36,9 @@ $ yarn run generate
 `npm install --save-dev vee-validate` [Vee Validate](https://baianat.github.io/vee-validate/)
 `npm install --save-dev nuxt-validate` [Nuxt Validate](https://github.com/lewyuburi/nuxt-validate)
 
-## Nuxt config
+# Nuxt config
 
-# Modules
+### Modules
 ```
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
@@ -59,7 +59,7 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
   ]
 ```
 
-# CSS
+### CSS
 ```
   css: [
     '@/node_modules/uikit/dist/css/uikit.min.css',
@@ -70,7 +70,7 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
   ],
 ```
 
-# Plugins
+### Plugins
 ```
   css: [
     '@/node_modules/uikit/dist/css/uikit.min.css',
@@ -81,7 +81,7 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
   ],
 ```
 
-# Build
+### Build
 ```
   build: {
     /*
@@ -105,11 +105,11 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
   }
 ```
 
-## Nuxt Folder Structure
+### Nuxt Folder Structure
 https://nuxtjs.org/guide/directory-structure/
 https://www.academind.com/learn/vue-js/nuxt-js-tutorial-introduction/folders-files/
 
-## Video Tutorials
+### Video Tutorials
 https://drive.google.com/drive/u/0/folders/1MEZQ3aKMNeCarvfeAXvbX6KlcgyeeH47
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
