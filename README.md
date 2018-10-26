@@ -20,21 +20,21 @@ $ yarn run generate
 ```
 
 ## Standard package list
-`npm install --save-dev moment` [Moment](https://momentjs.com/)
-`npm install --save-dev ag-grid-enterprise` [AG Grid Enterprise](https://github.com/ag-grid/ag-grid-enterprise)
-`npm install --save-dev ag-grid` [Ag Grid](https://www.ag-grid.com/vue-getting-started/)
-`npm install --save-dev ag-grid-vue` [Ag Grid Vue](https://github.com/ag-grid/ag-grid-vue)
-`npm install --save-dev ag-grid-community` [Ag Grid Community]
-`npm install --save-dev echarts vue-echarts-v3` [echarts](https://github.com/xlsdg/vue-echarts-v3)
-`npm install --save-dev vue-multiselect` [Vue Multiselect](https://vue-multiselect.js.org/)
-`npm install --save-dev vuejs-datepicker` [Vue Datepicker](https://github.com/charliekassel/vuejs-datepicker)
-`npm install --save-dev node-sass` [Node SASS](https://github.com/sass/node-sass)
-`npm install --save-dev sass-loader` [SASS Loader](https://github.com/webpack-contrib/sass-loader)
-`npm install --save-dev uikit` [UIKit](https://github.com/uikit/uikit)
-`npm install --save-dev @nuxtjs/pwa` [Nuxt PWA Module](https://pwa.nuxtjs.org/modules/workbox)
-`npm install --save-dev vue-js-modal` [Vue Modal](https://vuejs.org/v2/examples/modal.html)
-`npm install --save-dev vee-validate` [Vee Validate](https://baianat.github.io/vee-validate/)
-`npm install --save-dev nuxt-validate` [Nuxt Validate](https://github.com/lewyuburi/nuxt-validate)
+- `npm install --save-dev moment` [Moment](https://momentjs.com/)
+- `npm install --save-dev ag-grid-enterprise` [AG Grid Enterprise](https://github.com/ag-grid/ag-grid-enterprise)
+- `npm install --save-dev ag-grid` [Ag Grid](https://www.ag-grid.com/vue-getting-started/)
+- `npm install --save-dev ag-grid-vue` [Ag Grid Vue](https://github.com/ag-grid/ag-grid-vue)
+- `npm install --save-dev ag-grid-community` [Ag Grid Community]
+- `npm install --save-dev echarts vue-echarts-v3` [echarts](https://github.com/xlsdg/vue-echarts-v3)
+- `npm install --save-dev vue-multiselect` [Vue Multiselect](https://vue-multiselect.js.org/)
+- `npm install --save-dev vuejs-datepicker` [Vue Datepicker](https://github.com/charliekassel/vuejs-datepicker)
+- `npm install --save-dev node-sass` [Node SASS](https://github.com/sass/node-sass)
+- `npm install --save-dev sass-loader` [SASS Loader](https://github.com/webpack-contrib/sass-loader)
+- `npm install --save-dev uikit` [UIKit](https://github.com/uikit/uikit)
+- `npm install --save-dev @nuxtjs/pwa` [Nuxt PWA Module](https://pwa.nuxtjs.org/modules/workbox)
+- `npm install --save-dev vue-js-modal` [Vue Modal](https://vuejs.org/v2/examples/modal.html)
+- `npm install --save-dev vee-validate` [Vee Validate](https://baianat.github.io/vee-validate/)
+- `npm install --save-dev nuxt-validate` [Nuxt Validate](https://github.com/lewyuburi/nuxt-validate)
 
 # Nuxt config
 
