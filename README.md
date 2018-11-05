@@ -4,6 +4,7 @@
 
 ## Build Setup
 > sudo npm install -g @vue/cli
+
 > npx create-nuxt-app <project_name>
 
 ``` bash
