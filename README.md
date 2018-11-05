@@ -3,6 +3,8 @@
 > My astonishing Nuxt.js project
 
 ## Build Setup
+> sudo npm install -g @vue/cli
+> npx create-nuxt-app <project_name>
 
 ``` bash
 # install dependencies
@@ -72,12 +74,9 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
 
 ### Plugins
 ```
-  css: [
-    '@/node_modules/uikit/dist/css/uikit.min.css',
-    '@/node_modules/ag-grid/dist/styles/ag-grid.css',
-    '@/node_modules/ag-grid/dist/styles/ag-theme-balham.css'
-    // '@/assets/custom.css',
-    // '@/assets/scss/main.scss'
+  plugins: [
+    { src: '~/plugins/third_party.js', ssr: false },
+    { src: '~/plugins/custom.js', ssr: false }
   ],
 ```
 
