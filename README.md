@@ -71,13 +71,13 @@ To extend/add specific Vee Validate locale use [Nuxt Validate](https://github.co
 ```
 
 ### Plugins
+The are 2 main types of plugins. Third `third_party.js` for all third party plugins and `custom.js` for all custom utils-type code. See plugins folder for examples.
+
 ```
-  css: [
-    '@/node_modules/uikit/dist/css/uikit.min.css',
-    '@/node_modules/ag-grid/dist/styles/ag-grid.css',
-    '@/node_modules/ag-grid/dist/styles/ag-theme-balham.css'
-    // '@/assets/custom.css',
-    // '@/assets/scss/main.scss'
+  plugins: [
+    { src: "~/plugins/third_party.js", ssr: false },
+    { src: "~/plugins/custom.js", ssr: false }
+    // { src: '~/plugins/vee-validate.js', ssr: true },
   ],
 ```
 
@@ -113,3 +113,60 @@ https://www.academind.com/learn/vue-js/nuxt-js-tutorial-introduction/folders-fil
 https://drive.google.com/drive/u/0/folders/1MEZQ3aKMNeCarvfeAXvbX6KlcgyeeH47
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+
+# Components
+
+Creating a component: All reusable components must be created in `./components` folder. Component name must be PascalCase. If the component is using props, default props must be defined.
+
+**MyComponent.vue**
+```
+<template>
+  <div>
+    ...
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: "MyComponent",
+  components: {
+    ...
+  },
+  props: ["propOne", "propTwo", "propThree"],
+  methods: {
+    ....
+  }
+};
+</script>
+```
+
+Using a component: Unless otherwise stated most reusable components will be self-closing tags `<MyComponent />`. Component name must be PascalCase.
+
+**MyPage.vue**
+```
+<template>
+  <div>
+    <MyComponent
+      propOne="stuff"
+      propTwo="stuff again"
+      propThree="other stuff"
+    />
+  </div>
+</template>
+
+<script>
+import MyComponent from "@/components/MyComponent.vue";
+export default {
+  components: {
+    MyComponent
+  },
+  data: {
+    return {
+      ...
+    }
+  }
+};
+</script>
+```

@@ -20,6 +20,12 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-unused-vars': 2
+    'no-unused-vars': 2,
+    'indent': [2, 2],
+    'vue/attribute-hyphenation': [2, 'never', { 'ignore': ['custom-prop'] }],
+    'vue/valid-v-on': 0,
+    'vue/name-property-casing': [2, 'PascalCase'],
+    'vue/no-confusing-v-for-v-if': 0,
+    'vue/require-prop-types': 0
   }
 }
