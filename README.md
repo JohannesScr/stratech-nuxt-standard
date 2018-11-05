@@ -3,6 +3,9 @@
 > My astonishing Nuxt.js project
 
 ## Build Setup
+> sudo npm install -g @vue/cli
+
+> npx create-nuxt-app <project_name>
 
 ``` bash
 # install dependencies
@@ -75,9 +78,8 @@ The are 2 main types of plugins. Third `third_party.js` for all third party plug
 
 ```
   plugins: [
-    { src: "~/plugins/third_party.js", ssr: false },
-    { src: "~/plugins/custom.js", ssr: false }
-    // { src: '~/plugins/vee-validate.js', ssr: true },
+    { src: '~/plugins/third_party.js', ssr: false },
+    { src: '~/plugins/custom.js', ssr: false }
   ],
 ```
 
