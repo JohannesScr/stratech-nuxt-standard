@@ -162,6 +162,8 @@ Using a component: Unless otherwise stated most reusable components will be self
 import MyComponent from "@/components/MyComponent.vue";
 export default {
   components: {
+    // NOTE: This is strickly for components,
+    // helper packages/imports like axios and moment do not belong here
     MyComponent
   },
   data: {
